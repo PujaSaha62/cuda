@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-purple{
+   background-color:rgba(160, 48, 203, 0.83);
+    padding: 0 200px;
+    padding-top: 20px;
+}
+.header{
+    background:#87509c;
+     padding-top: 60px;
+}
+
+#nav ul li a{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+   
+    z-index: 1030;
+}   
+    
+
+.header_text h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 144px;
+}
+.header_text button{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    background-color: #eb7d4b;
+    border: none;
+     box-shadow: 0 8px #c86a40;
+    cursor: pointer;
+    margin-top: 3.5rem;
+    margin-bottom: 146px;
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 60px;
+    border-radius: 10px;
+    text-transform: uppercase;
+   
+}
+.header_text button:hover {
+  background-color: #c86a40;
+  
+}
+.header_text button:active {
+  background-color: #c86a40;
+  box-shadow: 0 7px #eb7d4b;
+  transform: translateY(2px);
+}
+.clearfix{
+    clear: both;
+}
+/*...started header section................*/
+
+
+/*...started services section................*/
+
+#services{
+   background-color: #17c2a4;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    
+   
+}
+.services_text h2{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.services_text p{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+
+.service_grid{
+    background-color: #5c8c84;
+    opacity:0.5;
+        transition: 2s;
+}
+.service_grid:hover{
+    background-color: #bedae8 ;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 3s;
+    
+    
+}
+.service_grid h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 50px;
+}
+.service_grid p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+/*.....end service section..*/
+
+#team{
+    background: #e7f1f8;
+   padding: 128px 0;
+}
+.team_text h2{
+    color: #3c4761;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+.team_text p{
+    color: #3c4761;
+    padding-top: 48px;
+}
+.team_grid{
+    margin-top: 60px;
+    text-align: center;
+}
+.team_grid img{
+  border-radius: 50%;
+}
+.team_grid h2{
+    color: #27283d;
+     font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 28px;
+}
+.team_grid h6{
+    color: #30bae7;
+     font-family: 'Titillium Web', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.team_grid p{
+    color: #5d677b;
+}
+
+/*......skil part started.....*/
+#skill{
+  background: #fff;  
+    padding: 114px 0;
+}
+.skill_text h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: #3c4761;
+    font-weight: 400;
+}
+.skill_text p{
+    font-family: 'Titillium Web', sans-serif;
+    color: #3c4761;
+
+    
+}
+   /*..progressber*/
+
+ .progress-bar1 {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  
+}
+ 
+.progress-bar1 div {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border-radius: 80%;
+}
+ 
+.progress-bar1 div span {
+  position: absolute;
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 120px;
+  height: 120px;
+  width: 120px;
+  left: 15px;
+  top: 15px;
+  text-align: center;
+  border-radius: 80%;
+  background-color: white;
+}
+ 
+.progress-bar1 .background { background-color: #b3cef6; }
+ 
+.progress-bar1 p{
+    text-align: center;
+}
+
+
+.progress-bar1 .rotate {
+  clip: rect(0 75px 150px 0);
+  background-color: #4b86db;
+}
+ 
+.progress-bar1 .left {
+  clip: rect(0 75px 150px 0);
+  opacity: 1;
+  background-color: #b3cef6;
+}
+ 
+.progress-bar1 .right {
+  clip: rect(0 75px 150px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+ 
+@keyframes
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+
+
+/*...start portfolio section*/
+#portfolio{
+    background-image: url(../img/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    padding: 110px 0;
+   
+    position: relative;
+     z-index: 1;
+}
+#portfolio:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+
+}
+.portfolio_text{
+
+    color: #fff;
+   
+}
+.port_grid:hover{
+   transform: rotate(15deg) scale(.8);
+    transition-duration: 5s ease-in-out;
+  
+}
+/*end portfolio  section*/
+
+/*start contact section*/
+
+#contact{
+    background: #3c5499;
+    padding: 100px 0;
+}
+.contact_text{
+    color: #fff;
+}
+
+/*end contact section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
